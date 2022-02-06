@@ -123,7 +123,7 @@ const poster = document.querySelector('.poster')
 const progress = document.querySelector('input.progress');
 
 video.ontimeupdate  = progressUpdate;
-progress.oncick = videoRewind;
+progress.oninput = videoRewind;
 
 document.querySelector('.stop').onclick = stop;
 document.querySelector('.speed-up').onclick = speedUp;
