@@ -142,7 +142,6 @@ playStop.addEventListener('click', () => {
   }
 })
 
-
 function hidePoster() {
   poster.style.display = 'none';
   play();
